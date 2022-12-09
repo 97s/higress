@@ -46,6 +46,10 @@ import (
 	. "github.com/alibaba/higress/pkg/ingress/log"
 )
 
+const (
+	commit = 1
+)
+
 var (
 	_ model.ConfigStoreCache = &IngressConfig{}
 	_ model.IngressStore     = &IngressConfig{}
